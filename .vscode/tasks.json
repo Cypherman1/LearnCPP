@@ -1,0 +1,35 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "taskName": "build",
+      "command":
+        "g++ -g 01.AttachingSquare/attachingSquare.cpp -o 01.AttachingSquare/attachingSquare.cpp",
+      // "g++ -g 20.LineGolf/lineGolf.cpp -o 20.LineGolf/lineGolf",
+      // "g++ -g 18.DepthOfLake/depthOfLake.cpp -o 18.DepthOfLake/depthOfLake",
+      // "g++ -g 17.TheAudition/theAudition.cpp -o 17.TheAudition/theAudition",
+      // "g++ -g 16.QuizShow/quizShow.cpp -o 16.QuizShow/quizShow",
+      // "g++ -g 15.ShoppingQeen/shoppingQeen.cpp -o 15.ShoppingQeen/shoppingQeen",
+      // "g++ -g 14.PatternMatching/patternMatching.cpp -o 14.PatternMatching/patternMatching",
+      // "g++ -g 13.PackageLocation/pakageLocation.cpp -o 13.PackageLocation/pakageLocation",
+      // "g++ -g 12.MoveNums/moveNums.cpp -o 12.MoveNums/moveNums",
+      // "g++ -g 11.StoneSkipping/stoneSkipping.cpp -o 11.StoneSkipping/stoneSkipping",
+      // "g++ -g 10.CapturingStones/capturingStones.cpp -o 10.CapturingStones/capturingStones",
+      // "g++ -g 09.BilliardTable/billiardTable.cpp -o 09.BilliardTable/billiardTable",
+      // "g++ -g 08.Batman/batman.cpp -o 08.Batman/batman",
+      // "g++ -g 07.CambridgeEffect/strCamEff.cpp -o 07.CambridgeEffect/strCamEff",
+      //"g++ -g 06.MableMaze/mableMaze.cpp -o 06.MableMaze/mableMaze",
+      // "g++ -g 04.BinaryPattern/binaryPattern.cpp -o 04.BinaryPattern/binaryPattern",
+      // "g++ -g 02.NumberTable/numberTable.cpp -o 02.NumberTable/numberTable",
+      // "command": "g++ -g thapHaNoi.cpp -o thapHaNoi",
+      "type": "shell",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": "$gcc"
+    }
+  ]
+}

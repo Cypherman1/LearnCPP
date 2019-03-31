@@ -1,0 +1,16 @@
+{
+  "files.associations": {
+    "istream": "cpp",
+    "algorithm": "cpp",
+    "bitset": "cpp",
+    "initializer_list": "cpp",
+    "iterator": "cpp",
+    "string": "cpp",
+    "string_view": "cpp",
+    "utility": "cpp",
+    "iostream": "cpp",
+    "ostream": "cpp",
+    "locale": "cpp",
+    "streambuf": "cpp"
+  }
+}
